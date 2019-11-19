@@ -12,3 +12,39 @@ main {
 li {
     margin-bottom: 5px;
 }
+
+@media (min-width: 0px) {
+    body {
+        border: 10px solid red;
+}
+
+
+@media (min-width: 376px) {
+    body {
+        border: 10px solid blue;
+    }
+}
+
+@media (min-width: 426px) { 
+    body {
+        border: 10px solid green;
+    }
+}
+
+@media (min-width: 769px) { 
+    body {
+        border: 10px solid yellow;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body {
+        border: 10px solid hotpink;
+    }
+}
+
+@media (min-width: 1440px) { 
+    body {
+        border: 10px solid white;
+    }
+}
